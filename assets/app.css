@@ -1,0 +1,15 @@
+#first-data {
+    display:flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center
+}
+
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#news-table-header {
+    text-align: center;
+}

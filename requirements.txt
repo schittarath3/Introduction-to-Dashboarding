@@ -1,0 +1,5 @@
+jupyterlab
+ipykernel
+yahooquery
+dash
+pandas==1.3.2
