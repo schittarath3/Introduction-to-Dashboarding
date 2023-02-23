@@ -1,5 +1,7 @@
 # Dashboards-with-Dash
-This workshop is designed to introduce how to create dashboards using Dash. The dashboard tracks common stock metrics retrieved from the unofficial Yahoo Finance wrapper API, yahooquery.
+This workshop is designed to introduce how to create dashboards using [Dash](https://dash.plotly.com/). The dashboard tracks common stock metrics retrieved from the unofficial Yahoo Finance wrapper API, [yahooquery](https://yahooquery.dpguthrie.com/).
+
+Due to limitations of the official jupyter-dash library, which allows us to run Dash app within the notebook itself, this workshop will implement the Dash app in an unconvential way. We will use Jupyter Notebook to work on the files and write the files to a python file. 
 
 ### Installation
 It is ideal to run this in a virtual environment. To do this, run the following commands.
