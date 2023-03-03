@@ -14,3 +14,14 @@ from dash import Input, Output, State
 def update_output_div(symbol):
     # returns the figure to the target component property BASED ON THE ORDER OF OUTPUTS
     return process_data.candlestick_chart(symbol, "1y", "1d"), process_data.price_indicator(symbol), news_table.generate_news_table(symbol)
+
+# @dash.callback(
+#     Output(component_id='price-history', component_property='figure'),
+#     Output(component_id='price-metric', component_property='figure'),
+#     Output(component_id="news-table", component_property='children'),
+#     Input(component_id='submit-button-state', component_property='n_clicks'),
+#     State(component_id='my-input', component_property='value'),
+    prevent_initial_call = True
+# )
+# def update_output_div(n_clicks, symbol):
+#     return process_data.candlestick_chart(symbol, "1y", "1d"), process_data.price_indicator(symbol), news_table.generate_news_table(symbol)
