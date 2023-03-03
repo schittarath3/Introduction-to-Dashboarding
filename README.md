@@ -17,4 +17,4 @@ Then to launch the notebook, run `jupyter-lab` in the directory with the files.
 * **Dashboard.ipynb** The fully completed version of the workshop notebook. Running this file will create the .py files needed to create the application
 * **HandsOn_Dashboard** The uncompleted version of the workshop notebook. Code will be filled in during the workshop
 
-Made for the Data Visualization Lab @ Georgia Tech.
+Made for the Data Visualization Lab @ Georgia Tech. 
