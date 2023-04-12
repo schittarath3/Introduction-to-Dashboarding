@@ -4,6 +4,7 @@ This workshop is designed to introduce how to create dashboards using [Dash](htt
 Due to limitations of the official jupyter-dash library, which allows us to run Dash app within the notebook itself, this workshop will implement the Dash app in an unconvential way. We will use Jupyter Notebook to work on the files and write the files to a python file. 
 
 ### Installation
+For both versions, you will need to download a version of Python < 3.10.
 
 ### Windows
 It is ideal to run this with conda for easier installation.
